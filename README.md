@@ -1,5 +1,8 @@
 # dynalist-go
 
+[![GoDoc](https://godoc.org/github.com/1l0/dynalist-go?status.svg)](https://godoc.org/github.com/1l0/dynalist-go)
+[![Go Report Card](https://goreportcard.com/badge/github.com/1l0/dynalist-go)](https://goreportcard.com/report/github.com/1l0/dynalist-go)
+
 Set an env before using:
 
 ```bash
