@@ -1,7 +1,7 @@
 // Dynalist API for Go
 //
-//  Set an env before using:
-//   export DYNALIST_TOKEN=your_secret_token
+// Set an env before using:
+// export DYNALIST_TOKEN=your_secret_token
 package dynalist
 
 import (
