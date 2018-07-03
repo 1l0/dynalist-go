@@ -1,4 +1,4 @@
-// Dynalist API for Go
+// Package dynalist implements dynalist.io API for Go
 //
 // Set an env before using:
 // export DYNALIST_TOKEN=your_secret_token
