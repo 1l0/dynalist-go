@@ -18,10 +18,10 @@ const (
 )
 
 type API struct {
-	Token      string       `json:"token"`
-	RateLimit  time.Time    `json:"-"`
-	BurstLimit int          `json:"-"`
-	client     *http.Client `json:"-"`
+	Token      string    `json:"token"`
+	RateLimit  time.Time `json:"-"`
+	BurstLimit int       `json:"-"`
+	client     *http.Client
 }
 
 func New() (*API, error) {
@@ -211,9 +211,9 @@ type Response struct {
 	Msg        string `json:"_msg"`
 	RootFileID string `json:"root_file_id,omitempty"`
 	Files      []File `json:"files,omitempty"`
-	Results    []bool `json:"results,omitempty`
-	Title      string `json:"title,omitempty`
-	Nodes      []Node `json:"nodes,omitempty`
+	Results    []bool `json:"results,omitempty"`
+	Title      string `json:"title,omitempty"`
+	Nodes      []Node `json:"nodes,omitempty"`
 }
 
 type Code string
