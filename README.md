@@ -2,6 +2,6 @@
 
 Set an env before using:
 
-bash```
+```bash
 export DYNALIST_TOKEN=your_secret_token
 ```
